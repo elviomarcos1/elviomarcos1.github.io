@@ -1,11 +1,15 @@
 .button{
-    display: flex;
+    font-size: 16px;
+    height: 14px;
+    width: 90px;
+    color: #fff;
+    display: inline-block;
     align-items: center;
-    margin: 10px 10px;
+    text-align: center;
     padding: 20px;
     text-decoration: none;
     background: #00b4d8;
-    box-shadow: 3px 3px black;
+    box-shadow: 4px 4px black;
     transition: linear 80ms;
 }
 
