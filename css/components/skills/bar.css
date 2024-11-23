@@ -1,0 +1,16 @@
+.bar{
+    display: flex;
+    margin-top: 10px;
+    width: 300px;
+    height: 20px;
+    background-color: #fff;
+    border: solid #000;
+    margin-left: 19px;
+    margin-top: 0px
+}
+
+.progress{
+    display: flex;
+    background-color: #0077b6;
+}
+
