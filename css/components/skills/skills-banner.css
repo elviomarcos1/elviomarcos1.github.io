@@ -1,0 +1,6 @@
+.section.-skills-banner {
+    justify-content: center;
+    flex-direction: column;
+    background-color: #00b4d8;
+    border-bottom: 10px #0077b6 solid;
+  }
