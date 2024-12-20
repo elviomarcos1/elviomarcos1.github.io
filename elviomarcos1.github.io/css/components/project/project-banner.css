@@ -1,0 +1,6 @@
+.section.-project-banner {
+    justify-content: center;
+    flex-direction: column;
+    background-color: #000;
+    border-bottom: 10px #0077b6 solid;
+  }

@@ -1,0 +1,36 @@
+.skills-icon{
+    display: flex;
+    margin: 30px;
+}
+
+.skills-icon p{
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+    font-family: "Press Start 2P", system-ui;
+    color: #fff;
+}
+
+.html .progress{
+    width: 80%;
+}
+
+.css .progress{
+    width: 75%;
+}
+
+.javascript .progress{
+    width: 20%;
+}
+
+.nodejs .progress{
+    width: 10%;
+}
+
+.react .progress{
+    width: 10%;
+}
+
+.git .progress{
+    width: 70%;
+}
