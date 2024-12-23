@@ -1,4 +1,4 @@
-.banner{
+.home-banner{
     box-sizing: border-box;
     background-image: url(/assets/img/banner-right.jpeg);
     height:800px;
@@ -7,7 +7,7 @@
     border-bottom: 10px solid #000;
 }
 
-.banner .wrapper {
+.home-banner .wrapper {
     display: flex;
     flex-direction: column;
     width: 640px;
@@ -15,15 +15,15 @@
     padding-left: 90px;
 }
 
-.banner .box{
+.home-banner .home-box{
     margin-bottom: 40px;
 }
 
-.banner .navigation {
+.home-banner .navigation {
     display: flex;
     justify-content: center;
 }
 
-.banner .button{
+.home-banner .main-button{
     margin: 0px 15px;
 }

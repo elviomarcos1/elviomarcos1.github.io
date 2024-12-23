@@ -1,4 +1,4 @@
-.action {
+.main-action {
     display: inline-block;
     margin: 0 10px;
     color: #fff;
@@ -6,11 +6,11 @@
     transition: linear 80ms;
 }
 
-.action:hover{
+.main-action:hover{
     transform: scale(1.03);
 }
 
-.action::before{
+.main-action::before{
     display: inline-block;
     vertical-align: middle;
     margin-right: 10px;

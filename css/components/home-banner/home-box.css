@@ -1,4 +1,4 @@
-.box{
+.home-box {
     display: inline-block;
     background-color: #3a4756;
     box-shadow: 10px 10px 0 #000;
@@ -6,7 +6,7 @@
     padding: 42px 44px;
 }
 
-.box .title{
+.home-box .title{
     margin-top: 20px;
     margin-bottom: 28px;
 }
