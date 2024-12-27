@@ -1,0 +1,11 @@
+.about-description{
+    display: flex;
+    width: 80%;
+    height: 200px;
+    line-height: 20px;
+    margin: 10px;
+
+    font-size: 20px;
+    color: #fff;
+    text-align: justify;
+}

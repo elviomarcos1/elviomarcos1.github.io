@@ -19,3 +19,9 @@
   border-bottom: 10px #0077b6 solid;
 }
 
+.section.-about-section{
+  flex-direction: column;
+  background-color: #0077b6;
+  justify-content: space-around;
+}
+
