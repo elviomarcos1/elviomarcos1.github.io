@@ -23,5 +23,6 @@
   flex-direction: column;
   background-color: #0077b6;
   justify-content: space-around;
+  border-bottom: 10px #000 solid;
 }
 

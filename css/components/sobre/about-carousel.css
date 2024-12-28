@@ -1,4 +1,26 @@
 .about-carousel{
+    align-items: center;
+    justify-content: center;
     display: flex;
-    width: 100%;
+    width: 80%;
+}
+
+.about-carousel img{
+    margin: 0px 20px
+}
+
+.carousel-image{
+    width: 250px;
+    height: 250px;
+    border: solid #000;
+    margin-bottom: 30px;
+}
+
+.about-button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 10px;
+    height: 10px;
+    margin: 30px;
 }
