@@ -1,9 +1,11 @@
 .project-image{
     width: 320px;
     height: 320px;
-    box-shadow: 10px 10px #fff;
+    box-shadow: 5px 5px #fff;
+    transition: linear 80ms;
 }
 
 .project-image:hover{
+    box-shadow: none;
     transform: scale(1.004);
 }

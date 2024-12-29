@@ -1,26 +1,95 @@
 .about-carousel{
-    align-items: center;
+    position: relative;
     justify-content: center;
     display: flex;
     width: 80%;
 }
 
+.about-carousel figure{
+    display: flex;
+}
+
 .about-carousel img{
-    margin: 0px 20px
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.node-card-img::before{
+    position: absolute;
+    display: block;
+    content: "";
+    height: 3px;
+    width: 100%;
+    background-color: #000;
+    top: 40px;
 }
 
 .carousel-image{
-    width: 250px;
-    height: 250px;
+    width: 200px;
+    height: 200px;
     border: solid #000;
     margin-bottom: 30px;
 }
 
 .about-button{
+    position: relative;
+    top: 120px;
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 10px;
-    height: 10px;
+    width: 50px;
+    height: 50px;
     margin: 30px;
+    cursor: pointer;
+    border: none;
+}
+
+.about-button::before{
+    display: block;
+    width: 15px;
+    height: 15px;
+    content: '';
+    box-sizing: border-box;
+    border: 15px solid transparent;
+    border-right: 28px solid #fff;
+    transform: translateX(-9px);
+}
+
+.button-right::before{
+    transform: rotate(180deg) translateX(-9px);
+}
+
+
+.node-card{
+    display: flex;
+    align-items: center;
+}
+
+.node-card figcaption{
+    text-shadow: none;
+    margin-bottom: 20px;
+}
+
+.about-carousel .content{
+    display: none;
+}
+
+.node-card-img{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.node-card-img::after{
+    position: relative;
+    display: flex;
+    content: "";
+    height: 17px;
+    border: dashed #000 2.2px;
+    bottom: 265px;
+}
+
+.node-card-img .subtitle{
+    font-size: 15px;
 }
