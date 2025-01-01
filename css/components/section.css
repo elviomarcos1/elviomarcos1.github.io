@@ -20,6 +20,7 @@
 }
 
 .section.-about-section{
+  position: relative;
   flex-direction: column;
   background-color: #0077b6;
   justify-content: space-around;
