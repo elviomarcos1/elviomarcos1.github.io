@@ -11,26 +11,51 @@
     color: #fff;
 }
 
-.html .progress{
+
+
+.skillImgage{
+    height: 90px;
+    width: 90px;
+}
+
+
+
+.skills-bar{
+    display: flex;
+    margin-top: 10px;
+    width: 300px;
+    height: 20px;
+    background-color: #fff;
+    border: solid #000;
+    margin-left: 19px;
+    margin-top: 0px
+}
+
+.skills-progressBar{
+    display: flex;
+    background-color: #0077b6;
+}
+
+.skills-icon.-html .skills-progressBar{
     width: 80%;
 }
 
-.css .progress{
+.skills-icon.-css .skills-progressBar{
     width: 75%;
 }
 
-.javascript .progress{
+.skills-icon.-javascript .skills-progressBar{
     width: 20%;
 }
 
-.nodejs .progress{
+.skills-icon.-nodejs .skills-progressBar{
     width: 10%;
 }
 
-.react .progress{
+.skills-icon.-react .skills-progressBar{
     width: 10%;
 }
 
-.git .progress{
+.skills-icon.-git .skills-progressBar{
     width: 70%;
 }

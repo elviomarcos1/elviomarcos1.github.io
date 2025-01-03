@@ -1,13 +1,13 @@
-.home-banner{
+.banner{
     box-sizing: border-box;
-    background-image: url(/assets/img/banner-right.jpeg);
+    background-image: url(/assets/img/home-banner.jpeg);
     height:800px;
     background-repeat: no-repeat;
     background-size: cover;
     border-bottom: 10px solid #000;
 }
 
-.home-banner .wrapper {
+.banner .wrapper {
     display: flex;
     flex-direction: column;
     width: 640px;
@@ -15,15 +15,32 @@
     padding-left: 90px;
 }
 
-.home-banner .home-box{
+
+
+.box {
+    display: inline-block;
+    background-color: #3a4756;
+    box-shadow: 10px 10px 0 #000;
+    text-align: center;
+    padding: 42px 44px;
+}
+
+.box .title{
+    margin-top: 20px;
+    margin-bottom: 28px;
+}
+
+.banner .box{
     margin-bottom: 40px;
 }
 
-.home-banner .navigation {
+
+
+.banner .navigation {
     display: flex;
     justify-content: center;
 }
 
-.home-banner .main-button{
+.banner .main-button{
     margin: 0px 15px;
 }

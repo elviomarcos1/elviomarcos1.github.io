@@ -1,0 +1,68 @@
+.carousel{
+    position: relative;
+    justify-content: center;
+    display: flex;
+    width: 100%;
+}
+
+.carousel .image{
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.carousel::before{
+    position: absolute;
+    content: "";
+    width: calc(100% - 100px);
+    top: 40px;
+    background-color: #000;
+    height: 4px;
+}
+
+.carousel::after{
+    position: absolute;
+    content: "";
+    width: 99.7%;
+    border: 2.5px dashed #000;
+    top: 40px;
+    height: 0px;
+}
+
+
+
+.nodeList{
+    display: flex;
+    align-items: flex-start;
+}
+
+.nodeList .main-subtitle.-year{
+    text-shadow: none;
+    margin-bottom: 20px;
+}
+
+
+
+.image{
+    width: 130px;
+    height: 130px;
+    border: solid #000;
+    margin-bottom: 30px;
+}
+
+.image.-variable{
+    background-color: #fff;
+    width: 100px;
+    height: 100px;
+}
+
+
+
+
+
+
+
+
+
+
+

@@ -1,6 +1,12 @@
-.subtitle{
+.main-subtitle{
     font-family: "Press Start 2P", system-ui;
     font-size: 20px;
     color: #fff;
     text-shadow: 4px 4px 0 #000;
+}
+
+
+
+.main-subtitle.-year{
+    font-size: 15px;
 }

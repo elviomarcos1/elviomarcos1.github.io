@@ -12,26 +12,31 @@
     />
     <link rel="icon" type="image/x-icon" href="assets/img/logo.webp" />
 
-    <link rel="stylesheet" href="css/reset.css" />
+    <link rel="stylesheet" href="css/generic/reset.css" />
     <link rel="stylesheet" href="css/components/main-navbar.css" />
-    <link rel="stylesheet" href="css/components/text-components/main-action.css" />
+    <link
+      rel="stylesheet"
+      href="css/components/text-components/main-action.css"
+    />
     <link rel="stylesheet" href="css/components/main-button.css" />
-    <link rel="stylesheet" href="css/components/home-banner/home-banner.css">
-    <link rel="stylesheet" href="css/components/home-banner/home-box.css" />
-    <link rel="stylesheet" href="css/components/text-components/title.css"/>
-    <link rel="stylesheet" href="css/components/text-components/subtitle.css">
-    <link rel="stylesheet" href="css/components/text-components/main-title.css" />
+    <link rel="stylesheet" href="css/home/banner.css" />
+    <link
+      rel="stylesheet"
+      href="css/components/text-components/main-title.css"
+    />
+    <link
+      rel="stylesheet"
+      href="css/components/text-components/main-subtitle.css"
+    />
     <link rel="stylesheet" href="css/components/skills/skills-banner.css" />
-    <link rel="stylesheet" href="css/components/skills/skills-box.css" />
-    <link rel="stylesheet" href="css/components/skills/skills-img.css" />
+    <link rel="stylesheet" href="css/components/skills/skillList.css" />
     <link rel="stylesheet" href="css/components/skills/skills-icon.css" />
-    <link rel="stylesheet" href="css/components/skills/skills-bar.css" />
-    <link rel="stylesheet" href="css/components/section.css">
-    <link rel="stylesheet" href="css/components/project/project-banner.css">
-    <link rel="stylesheet" href="css/components/project/project-image.css">
-    <link rel="stylesheet" href="css/components/project/project-box.css">
-    <link rel="stylesheet" href="css/components/sobre/about-description.css">
-    <link rel="stylesheet" href="css/components/sobre/about-carousel.css">
+    <link rel="stylesheet" href="css/components/main-section.css" />
+    <link rel="stylesheet" href="css/components/project/project-image.css" />
+    <link rel="stylesheet" href="css/components/project/projectList.css" />
+    <link rel="stylesheet" href="css/components/about/carousel.css" />
+    <link rel="stylesheet" href="css/components/about/node-card.css">
+    <link rel="stylesheet" href="css/components/about/description.css" />
 
     <title>Elvio Marcos</title>
   </head>
@@ -44,175 +49,259 @@
         <a class="main-action" href="#Skills">Skills</a>
         <a class="main-action" href="#Projects">Projects</a>
         <a class="main-action" href="#About">About</a>
-        <a class="main-action" href="">Contacts</a>
-        <a class="main-button" href="assets/Curriculum en.pdf" download>Donwload CV</a>
+        <a class="main-action" href="#Contacts">Contacts</a>
+        <a class="main-button" href="assets/Curriculum en.pdf" download
+          >Donwload CV</a
+        >
       </nav>
     </header>
 
-    <section class="home-banner">
+
+    <section class="banner">
       <div class="wrapper">
-        <div class="home-box">
-          <h1 class="title">Elvio Marcos</h1>
-          <h2 class="subtitle">Full Stack Developer</h2>
+        <div class="box">
+          <h1 class="main-title">Elvio Marcos</h1>
+          <h2 class="main-subtitle">Full Stack Developer</h2>
         </div>
 
         <div class="navigation">
-          <a class="main-button" href="assets/Curriculum en.pdf" download>Donwload CV</a>
-          <a class="main-button" href="">Contatos</a>
+          <a class="main-button" href="assets/Curriculum en.pdf" download
+            >Donwload CV</a
+          >
+          <a class="main-button" href="#Contacts">Contacts</a>
         </div>
       </div>
     </section>
 
-    <section class="section -skills-banner">
-      <a name="Skills"></a>
-      <h2 class="title main-title">Skills</h2>
 
-      <div class="skills-box">
-        <div class="skills-icon">
-          <img class="skills-img" src="assets/img/icons/ico_html5.png" alt="Html" />
+    <section class="main-section -skills">
+      <a name="Skill"></a>
+      <h2 class="main-title -sectionTitle">Skills</h2>
+
+      <div class="skillList">
+
+        <div class="skills-icon -html">
+          <img
+            class="skillImgage"
+            src="assets/img/skills-icons/ico_html5.png"
+            alt="Html"
+          />
           <div>
             <p>HTML</p>
-            <div class="html skills-bar">
-              <div class="progress"></div>
+            <div class="skills-bar">
+              <div class="skills-progressBar -html"></div>
             </div>
           </div>
         </div>
-        <div class="skills-icon">
-          <img class="skills-img" src="assets/img/icons/ico_css3.png" alt="Css" />
+
+        <div class="skills-icon -css">
+          <img
+            class="skillImgage"
+            src="assets/img/skills-icons/ico_css3.png"
+            alt="Css"
+          />
           <div>
             <p>CSS</p>
-            <div class="css skills-bar">
-              <div class="progress"></div>
+            <div class="skills-bar">
+              <div class="skills-progressBar"></div>
             </div>
           </div>
         </div>
-        <div class="skills-icon">
+
+        <div class="skills-icon -javascript">
           <img
-            class="skills-img"
-            src="assets/img/icons/ico_js.png"
+            class="skillImgage"
+            src="assets/img/skills-icons/ico_js.png"
             alt="JavaScript"
           />
           <div>
             <p>JavaScript</p>
-            <div class="javascript skills-bar">
-              <div class="progress"></div>
+            <div class="skills-bar">
+              <div class="skills-progressBar"></div>
             </div>
           </div>
         </div>
-        <div class="skills-icon">
+
+        <div class="skills-icon -nodejs">
           <img
-            class="skills-img"
-            src="assets/img/icons/ico_nodejs.png"
+            class="skillImgage"
+            src="assets/img/skills-icons/ico_nodejs.png"
             alt="NodeJS"
           />
           <div>
             <p>NodeJS</p>
-            <div class="nodejs skills-bar">
-              <div class="progress"></div>
+            <div class="skills-bar">
+              <div class="skills-progressBar"></div>
             </div>
           </div>
         </div>
-        <div class="skills-icon">
-          <img class="skills-img" src="assets/img/icons/ico_react.png" alt="React" />
+
+        <div class="skills-icon -react">
+          <img
+            class="skillImgage"
+            src="assets/img/skills-icons/ico_react.png"
+            alt="React"
+          />
           <div>
             <p>React</p>
-            <div class="react skills-bar">
-              <div class="progress"></div>
+            <div class="skills-bar">
+              <div class="skills-progressBar"></div>
             </div>
           </div>
         </div>
-        <div class="skills-icon">
-          <img class="skills-img" src="assets/img/icons/ico_git.png" alt="Git" />
+
+        <div class="skills-icon -git">
+          <img
+            class="skillImgage"
+            src="assets/img/skills-icons/ico_git.png"
+            alt="Git"
+          />
           <div>
             <p>Git</p>
-            <div class="git skills-bar">
-              <div class="progress"></div>
+            <div class="skills-bar">
+              <div class="skills-progressBar"></div>
             </div>
           </div>
         </div>
+
       </div>
+
+
     </section>
 
-    <section class="section -project-banner">
+    <section class="main-section -project">
       <a name="Projects"></a>
-      <h2 class="title main-title">Projects</h2>
+      <h2 class="main-title -sectionTitle">Projects</h2>
 
-      <div class="project-box">
-        <a href="https://github.com/elviomarcos1/Locadora_FilmAndGame_ASPNET" target="_blank">
+      <div class="projectList">
+        <a
+          href="https://github.com/elviomarcos1/Locadora_FilmAndGame_ASPNET"
+          target="_blank"
+        >
           <figure>
-            <img class="project-image" src="/assets/img/project-img/project-img1.gif" alt="Project - ASPNET" title="Em breve">
+            <img
+              class="project-image"
+              src="/assets/img/project-img/project-img1.gif"
+              alt="Project - ASPNET"
+              title="Em breve"
+            />
           </figure>
         </a>
-        <a href="https://github.com/elviomarcos1/Jornada_Do_Gari" target="_blank">
+        <a
+          href="https://github.com/elviomarcos1/Jornada_Do_Gari"
+          target="_blank"
+        >
           <figure>
-            <img class="project-image" src="assets/img/project-img/project-img2.gif" alt="Project - Jornada do Gari" title="Em breve">
+            <img
+              class="project-image"
+              src="assets/img/project-img/project-img2.gif"
+              alt="Project - Jornada do Gari"
+              title="Em breve"
+            />
           </figure>
         </a>
-        <a href="https://github.com/elviomarcos1/Algoritmos_de_Ordenacao" target="_blank">
+        <a
+          href="https://github.com/elviomarcos1/Algoritmos_de_Ordenacao"
+          target="_blank"
+        >
           <figure>
-            <img class="project-image" src="assets/img/project-img/project-img3.gif" alt="Project - Algoritmo de Ordenação" title="Em breve">
+            <img
+              class="project-image"
+              src="assets/img/project-img/project-img3.gif"
+              alt="Project - Algoritmo de Ordenação"
+              title="Em breve"
+            />
           </figure>
         </a>
       </div>
     </section>
 
-    <section class="section -about-section">
+
+    <section class="main-section -about">
       <a name="About"></a>
-      <h2 class="title main-title">About</h2>
+      <h2 class="main-title -sectionTitle">About</h2>
 
-      <div class="about-carousel">
+      <div class="carousel">
 
-        <button class="main-button about-button"><span class="content">last</span></button>
+        <button class="main-button -about">
+          <span class="content">last</span>
+        </button>
 
-        <figure class="node-card">
-
-          <div class="node-card-img variable">
-            <figcaption class="subtitle">2015</figcaption>
-            <img class="carousel-image variable" src="assets/img/about-img/unnamed.jpg" alt="">
+        <figure class="nodeList">
+          <div class="node-card -variable">
+            <figcaption class="main-subtitle -year">2015</figcaption>
+            <img
+              class="image -variable"
+              src="assets/img/about-img/preparaCursos.jpg"
+              alt="Prepara Cursos - 2015"
+            />
           </div>
 
-          <div class="node-card-img variable">
-            <figcaption class="subtitle">2023</figcaption>
-            <img class="carousel-image variable" src="assets/img/about-img/logo-devmedia.png" alt="">
+          <div class="node-card -variable">
+            <figcaption class="main-subtitle -year">2023</figcaption>
+            <img
+              class="image -variable"
+              src="assets/img/about-img/devMedia.png"
+              alt="DevMedia - 2023"
+            />
           </div>
 
-          <div class="node-card-img variable">
-            <figcaption class="subtitle">2023</figcaption>
-            <img class="carousel-image variable" src="assets/img/about-img/unip.png" alt="">
+          <div class="node-card -variable">
+            <figcaption class="main-subtitle -year">2023</figcaption>
+            <img
+              class="image -variable"
+              src="assets/img/about-img/unip.png"
+              alt="UNIP - 2023"
+            />
           </div>
 
-          <div class="node-card-img">
-            <figcaption class="subtitle">2023</figcaption>
-            <img class="carousel-image" src="assets/img/about-img/Unimed.png" alt="">
+          <div class="node-card">
+            <figcaption class="main-subtitle -year">2023</figcaption>
+            <img
+              class="image"
+              src="assets/img/about-img/Unimed.png"
+              alt="Unimed - 2023"
+            />
           </div>
 
-          <div class="node-card-img">
-            <figcaption class="subtitle">2024</figcaption>
-            <img class="carousel-image" src="assets/img/about-img/Unimed.png" alt="">
+          <div class="node-card">
+            <figcaption class="main-subtitle -year">2024</figcaption>
+            <img
+              class="image"
+              src="assets/img/about-img/Unimed.png"
+              alt="Unimed - 2023"
+            />
           </div>
 
-          <div class="node-card-img">
-            <figcaption class="subtitle">2024</figcaption>
-            <img class="carousel-image" src="assets/img/about-img/Unimed.png" alt="">
+          <div class="node-card">
+              <figcaption class="main-subtitle -year">2024</figcaption>
+              <img
+              class="image"
+              src="assets/img/about-img/Unimed.png"
+              alt="Unimed - 2024"
+            />
           </div>
-
-          
-
         </figure>
 
-        <button class="main-button about-button button-right"><span class="content">next</span></button>
-
+        <button class="main-button -about -right">
+          <span class="content">next</span>
+        </button>
       </div>
-      
-        <p class="about-description">
-          I started my studies at UNIP (Universidade Paulista) in the same year I joined Unimed. 
-          At the beginning of my professional journey, I worked in the healthcare sector as a Pharmaceutical Agent. 
-          Demonstrating dedication and commitment to my work, I was promoted to Pharmaceutical Assistant in just six months. 
-          Continuing my professional growth, after another six months, I had my first opportunity in the Information Technology field, working as a Systems Analyst and Support. 
-          This experience was fundamental in enhancing my knowledge and technical skills. Currently, I am focused on becoming a full-stack developer, expanding my expertise and contributing even further to the world of technology.
-        </p>
+
+      <p class="description">
+        I started my studies at UNIP (Universidade Paulista) in the same year I
+        joined Unimed. At the beginning of my professional journey, I worked in
+        the healthcare sector as a Pharmaceutical Agent. Demonstrating
+        dedication and commitment to my work, I was promoted to Pharmaceutical
+        Assistant in just six months. Continuing my professional growth, after
+        another six months, I had my first opportunity in the Information
+        Technology field. Currently, I am focused on becoming a full-stack developer,
+        expanding my expertise and contributing even further to the world of
+        technology.
+      </p>
 
     </section>
 
+    
   </body>
 </html>
