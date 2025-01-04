@@ -1,0 +1,15 @@
+.main-footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-sizing: border-box;
+    overflow: hidden;
+
+    background-color: #000;
+    width: 100%;
+}
+
+.main-footer .item{
+    padding: 10px;
+}
+
