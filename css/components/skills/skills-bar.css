@@ -1,0 +1,39 @@
+.skills-bar{
+    display: flex;
+    margin-top: 10px;
+    width: 300px;
+    height: 20px;
+    background-color: #fff;
+    border: solid #000;
+    margin-left: 19px;
+    margin-top: 0px
+}
+
+.skills-progressBar{
+    display: flex;
+    background-color: #0077b6;
+}
+
+.skills-icon.-html .skills-progressBar{
+    width: 80%;
+}
+
+.skills-icon.-css .skills-progressBar{
+    width: 75%;
+}
+
+.skills-icon.-javascript .skills-progressBar{
+    width: 20%;
+}
+
+.skills-icon.-nodejs .skills-progressBar{
+    width: 10%;
+}
+
+.skills-icon.-react .skills-progressBar{
+    width: 10%;
+}
+
+.skills-icon.-git .skills-progressBar{
+    width: 70%;
+}

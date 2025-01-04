@@ -1,0 +1,12 @@
+.image{
+    width: 130px;
+    height: 130px;
+    border: solid #000;
+    margin-bottom: 30px;
+}
+
+.image.-variable{
+    background-color: #fff;
+    width: 100px;
+    height: 100px;
+}

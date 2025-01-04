@@ -15,26 +15,9 @@
     padding-left: 90px;
 }
 
-
-
-.box {
-    display: inline-block;
-    background-color: #3a4756;
-    box-shadow: 10px 10px 0 #000;
-    text-align: center;
-    padding: 42px 44px;
-}
-
-.box .title{
-    margin-top: 20px;
-    margin-bottom: 28px;
-}
-
 .banner .box{
     margin-bottom: 40px;
 }
-
-
 
 .banner .navigation {
     display: flex;

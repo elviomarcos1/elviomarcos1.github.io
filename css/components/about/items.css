@@ -1,5 +1,5 @@
 .items{
     display: flex;
     overflow: visible;
-    transform: translateX(0px);
+    transition: transform 80ms linear;
 }

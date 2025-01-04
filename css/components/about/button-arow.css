@@ -1,0 +1,31 @@
+.main-button.-about{
+    position: relative;
+    top: 90px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50px;
+    height: 50px;
+    margin: 30px;
+    cursor: pointer;
+    border: none;
+}
+
+.main-button.-about::before{
+    display: block;
+    width: 15px;
+    height: 15px;
+    content: '';
+    box-sizing: border-box;
+    border: 15px solid transparent;
+    border-right: 28px solid #fff;
+    transform: translateX(-9px);
+}
+
+.main-button.-about.-right::before{
+    transform: rotate(180deg) translateX(-9px);
+}
+
+.main-button.-about .content{
+    display: none;
+}
