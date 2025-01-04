@@ -1,0 +1,23 @@
+.project-card{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    width: 300px;
+    height: 300px;
+
+    background-color: #3a4756;
+    box-shadow: 5px 5px #fff;
+
+    transition: linear 80ms;
+}
+
+.project-card:hover{
+    box-shadow: none;
+    transform: scale(1.004);
+}
+
+
+.project-card.main-subtitle{
+    text-shadow: none;
+}

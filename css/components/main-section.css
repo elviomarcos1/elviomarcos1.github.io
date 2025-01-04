@@ -3,6 +3,7 @@
   display: flex;
   align-items: center;
   height: 730px;
+  overflow: hidden;
 }
 
 .main-section.-skills {
@@ -13,7 +14,6 @@
 }
 
 .main-section.-project {
-  justify-content: center;
   flex-direction: column;
   background-color: #000;
   border-bottom: 10px #00b4d8 solid;
@@ -23,7 +23,6 @@
   position: relative;
   flex-direction: column;
   background-color: #0077b6;
-  justify-content: center;
   border-bottom: 10px #000 solid;
   height: 750px;
 }
