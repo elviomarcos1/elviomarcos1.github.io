@@ -19,6 +19,7 @@
 }
 
 .main-button.-send{
+    cursor: pointer;
     padding-top: 10px;
     width: 200px;
     border: none;

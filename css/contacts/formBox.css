@@ -6,6 +6,7 @@
 }
 
 .formBox input{
+    cursor: pointer;
     height: 20px;
     border: solid #000 3px;
     margin-bottom: 20px;
