@@ -3,9 +3,9 @@
     height: 14px;
     width: 90px;
     color: #fff;
-    display: inline-block;
-    align-items: center;
+    padding: 20px;
     text-align: center;
+    
     padding: 20px;
     text-decoration: none;
     background: #00b4d8;
@@ -16,4 +16,10 @@
 .main-button:hover{
     transform: scale(1.01);
     box-shadow: none;
+}
+
+.main-button.-send{
+    padding-top: 10px;
+    width: 200px;
+    border: none;
 }

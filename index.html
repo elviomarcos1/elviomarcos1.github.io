@@ -45,6 +45,7 @@
     <link rel="stylesheet" href="css/components/about/description.css" />
     <link rel="stylesheet" href="css/footer/item.css">
     <link rel="stylesheet" href="css/footer/main-footer.css">
+    <link rel="stylesheet" href="css/contacts/formBox.css">
 
     <title>Elvio Marcos</title>
   </head>
@@ -81,7 +82,7 @@
     </section>
 
     <section class="main-section -skills">
-      <a name="Skill"></a>
+      <a name="Skills"></a>
       <h2 class="main-title -sectionTitle">Skills</h2>
 
       <div class="skillList">
@@ -277,6 +278,26 @@
     </section>
 
     <section class="main-section -contacts">
+      <a name="Contacts"></a>
+      <h2 class="main-title -sectionTitle">Contacts</h2>
+
+      <form action="" class="formBox">
+
+        <label class="formTitle" for="name">Name</label>
+        <input type="text" id="name" name="name" required minlenght="3" max="20">
+        
+        <label class="formTitle" for="e-mail">E-mail</label>
+        <input type="email">
+        
+        <label class="formTitle" for="message">Message</label>
+        <textarea class="message" type="text" id="message" name="message" required minlength="10" max="200"></textarea>
+        
+      <div class="buttons">
+        <input class="main-button -send" type="submit" value="Send">
+        <input class="main-button -send" type="reset" value="Clear">
+      </div>  
+
+      </form>
 
     </section>
 
