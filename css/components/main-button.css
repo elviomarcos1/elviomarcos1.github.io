@@ -19,6 +19,7 @@
 }
 
 .main-button.-send{
+    font-family: "Nanum Gothic Coding", monospace;
     font-size: 20px;
     cursor: pointer;
     border: none;
