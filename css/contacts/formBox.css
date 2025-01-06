@@ -1,28 +1,14 @@
 .formBox{
-    margin-top: 30px;
+    overflow: hidden;
+    margin: 30px 0px 60px 0px;
     display: flex;
     flex-flow: column;
-    width: 90%;
+    width: 800px;
 }
 
-.formBox input{
-    cursor: pointer;
-    height: 20px;
-    border: solid #000 3px;
-    margin-bottom: 20px;
+.buttons{
+    margin-top: 20px;
+    justify-content: center;
+    display: flex;
+    width: 800px;
 }
-
-.formBox textarea{
-    resize: none;
-    height: 200px;
-    margin-bottom: 20px;
-    border: solid #000 3px;
-}
-
-.formTitle{
-    justify-content: flex-start;
-    font-size: 19px;
-    color: #fff;
-    margin: 5px;
-}
-

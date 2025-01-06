@@ -28,6 +28,7 @@
 }
 
 .main-section.-contacts{
+  height: 750px;
   background-color: #3a4756;  
   flex-direction: column;
 }

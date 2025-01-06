@@ -46,6 +46,8 @@
     <link rel="stylesheet" href="css/footer/item.css">
     <link rel="stylesheet" href="css/footer/main-footer.css">
     <link rel="stylesheet" href="css/contacts/formBox.css">
+    <link rel="stylesheet" href="css/components/main-label.css">
+    <link rel="stylesheet" href="css/components/main-input.css">
 
     <title>Elvio Marcos</title>
   </head>
@@ -283,17 +285,17 @@
 
       <form action="" class="formBox">
 
-        <label class="formTitle" for="name">Name</label>
-        <input type="text" id="name" name="name" required minlenght="3" max="20">
+        <label class="main-label" for="name">Name</label>
+        <input class="main-input" type="text" id="name" required minlenght="3" max="20">
         
-        <label class="formTitle" for="e-mail">E-mail</label>
-        <input type="email">
+        <label class="main-label" for="e-mail">E-mail</label>
+        <input class="main-input" type="email" id="e-mail" required>
         
-        <label class="formTitle" for="message">Message</label>
-        <textarea class="message" type="text" id="message" name="message" required minlength="10" max="200"></textarea>
+        <label class="main-label" for="message">Message</label>
+        <textarea class="main-input -message" type="text" id="message" required minlength="10" max="200"></textarea>
         
       <div class="buttons">
-        <input class="main-button -send" type="submit" value="Send">
+        <input class="main-button -send" type="submit" value="Submit">
         <input class="main-button -send" type="reset" value="Clear">
       </div>  
 
@@ -306,15 +308,7 @@
         <a href="https://www.linkedin.com/in/elviomarcos1/"  target="_blank">
           <img  class="item" src="assets/img/footer-icons/icon-linkedin.png" alt="Linkedin">
         </a>
-      
-        <a href="">
-          <img class="item" src="assets/img/footer-icons/icon-discord.png" alt="">
-        </a>
-      
-        <a href="https://github.com/elviomarcos1" target="_blank">
-          <img class="item -variable" src="assets/img/footer-icons/icon-github.png" alt="">
-        </a>
-
+  
     </footer>
 
     <script src="js/components/carousel.js"></script>
