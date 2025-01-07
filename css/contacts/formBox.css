@@ -1,9 +1,13 @@
 .formBox{
+    justify-content: center;
     overflow: hidden;
-    margin: 30px 0px 0px 0px;
     display: flex;
     flex-flow: column;
     width: 80%;
+}
+
+.formBox legend{
+    text-align: center;
 }
 
 .buttons{
