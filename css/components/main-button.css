@@ -1,0 +1,33 @@
+.main-button{
+    display: inline-block;
+    font-size: 16px;
+    height: 14px;
+    width: 90px;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    
+    padding: 20px;
+    text-decoration: none;
+    background: #00b4d8;
+    box-shadow: 4px 4px black;
+    transition: linear 80ms;
+}
+
+.main-button:hover{
+    transform: scale(1.01);
+    box-shadow: none;
+}
+
+.main-button.-send{
+    font-family: "Nanum Gothic Coding", monospace;
+    font-size: 20px;
+    cursor: pointer;
+    border: none;
+    height: 60px;
+    width: 30%; 
+    margin: 0px 20px;
+}
+
+
+

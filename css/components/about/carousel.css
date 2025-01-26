@@ -1,0 +1,45 @@
+.carousel{
+    position: relative;
+    justify-content: center;
+    display: flex;
+    width: 100%;
+}
+
+.carousel .image{
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.carousel::before{
+    position: absolute;
+    content: "";
+    width: calc(100% - 100px);
+    top: 40px;
+    background-color: #000;
+    height: 4px;
+}
+
+.carousel::after{
+    position: absolute;
+    content: "";
+    width: 100%;
+    border: 2.5px dashed #000;
+    top: 40px;
+    height: 0px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

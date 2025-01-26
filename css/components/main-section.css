@@ -1,0 +1,36 @@
+.main-section {
+  box-sizing: border-box;
+  display: flex;
+  align-items: center;
+  height: 730px;
+  overflow: hidden;
+}
+
+.main-section.-skills {
+  justify-content: center;
+  flex-direction: column;
+  background-color: #00b4d8;
+  border-bottom: 10px #0077b6 solid;
+}
+
+.main-section.-project {
+  flex-direction: column;
+  background-color: #000;
+  border-bottom: 10px #00b4d8 solid;
+}
+
+.main-section.-about{
+  flex-direction: column;
+  background-color: #0077b6;
+  border-bottom: 10px #000 solid;
+  height: 750px;
+}
+
+.main-section.-contacts{
+  background-color: #3a4756;  
+  flex-direction: column;
+}
+
+.main-section.-contacts h2{
+  margin-bottom: 0px;
+}

@@ -1,0 +1,15 @@
+.main-footer{
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    box-sizing: border-box;
+    background-color: #000;
+}
+
+.main-footer .item{
+    padding: 10px 0px;
+}
+
+.creatorName{
+    color: #fff;
+}

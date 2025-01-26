@@ -1,0 +1,12 @@
+.main-input{
+    font-size: 25px;
+    height: 30px;
+    border: solid #000 3px;
+    margin-bottom: 20px;
+}
+
+.main-input.-message{
+    font-weight: bold;
+    resize: none;
+    height: 200px;
+}

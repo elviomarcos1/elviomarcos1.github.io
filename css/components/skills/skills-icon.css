@@ -1,0 +1,22 @@
+.skills-icon{
+    display: flex;
+    margin: 30px;
+}
+
+.skills-icon p{
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+    font-family: "Press Start 2P", system-ui;
+    color: #fff;
+}
+
+
+
+.skillImgage{
+    height: 90px;
+    width: 90px;
+}
+
+
+

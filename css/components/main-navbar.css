@@ -1,0 +1,25 @@
+.main-navbar{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 3px solid black;
+    background: #0077b6;
+    padding: 2px;
+}
+
+.main-navbar nav{
+    margin-right: 15px;
+}
+
+.logo{
+    margin-left: 5px;
+    height: 60px;
+    width: 60px;
+    padding: 5px;
+}
+
+.logo:hover{
+    transform: scale(1.03);
+}
+

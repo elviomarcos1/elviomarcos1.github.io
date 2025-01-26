@@ -1,0 +1,19 @@
+.node-card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.node-card::after{
+    position: relative;
+    display: flex;
+    content: "";
+    height: 20px;
+    width: 0px;
+    border: dashed #000 2px;
+    bottom: 190px;
+}
+
+.node-card.-variable::after{
+    bottom: 160px;
+}

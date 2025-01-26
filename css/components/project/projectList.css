@@ -1,0 +1,10 @@
+.projectList{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    padding: 70px;
+}
+
+.projectList .project-card{
+    margin: 0px 40px;
+}

@@ -1,0 +1,5 @@
+.items{
+    display: flex;
+    overflow: visible;
+    transition: transform 80ms linear;
+}

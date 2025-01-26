@@ -1,0 +1,22 @@
+.main-action {
+    display: inline-block;
+    margin: 0 10px;
+    color: #fff;
+    text-decoration: none;
+    transition: linear 80ms;
+}
+
+.main-action:hover{
+    transform: scale(1.03);
+}
+
+.main-action::before{
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 10px;
+    content: "";
+    width: 5px;
+    height: 5px;
+    background: #00b4d8;
+}
+

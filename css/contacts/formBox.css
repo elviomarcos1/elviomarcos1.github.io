@@ -1,0 +1,19 @@
+.formBox{
+    justify-content: center;
+    overflow: hidden;
+    display: flex;
+    flex-flow: column;
+    width: 80%;
+}
+
+.formBox legend{
+    text-align: center;
+}
+
+.buttons{
+    display: flex;
+    height: 70px;
+    margin-top: 20px;
+    justify-content: center;
+    display: flex;
+}

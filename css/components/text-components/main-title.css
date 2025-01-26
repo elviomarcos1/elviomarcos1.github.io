@@ -1,0 +1,15 @@
+.main-title{
+    display: block;
+    font-family: "Press Start 2P", system-ui;
+    font-size: 40px;
+    color: #00b4d8;
+    text-shadow: 4px 4px 0 #000;
+}
+
+.main-title.-sectionTitle{
+    font-weight: 100;
+    font-size: 30px;
+    color: #fff;
+    margin: 60px 0px;
+    text-shadow: none;
+}
