@@ -8,3 +8,16 @@
 .projectList .project-card{
     margin: 0px 40px;
 }
+
+.projectList .project-card a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
+
+#spotifyIcon {
+    height: 220px;
+    width: 220px;
+}
